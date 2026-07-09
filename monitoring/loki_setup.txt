@@ -4,7 +4,7 @@ def __init__(self) -> None:
         self.mirror = True
         self.gesture = "WAITING"
         self.gesture_history: deque[str] = deque(maxlen=7)
-        self.missed_hand_frame
+        self.mi
 LOKI MONITORING SETUP NOTES
 ============================
 
