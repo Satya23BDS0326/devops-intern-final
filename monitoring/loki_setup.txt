@@ -1,3 +1,11 @@
+def __init__(self) -> None:
+        self.lock = threading.RLock()
+        self.tracker = HandTracker()
+        self.mirror = True
+        self.gesture = "WAITING"
+        self.gesture_history: deque[str] = deque(maxlen=7)
+        self.missed_hand_frames = 0
+        self.stable_seconds = 0.0
 LOKI MONITORING SETUP NOTES
 ============================
 
