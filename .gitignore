@@ -2,4 +2,4 @@ __pycache__/
 *.pyc
 .DS_Store
 mlruns/
-mlflow/summary.tx
+mlflow/summary.txt
