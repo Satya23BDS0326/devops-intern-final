@@ -1,7 +1,7 @@
 LOKI MONITORING SETUP NOTES
 ============================
 
-1. How Loki was started (local Dcker run):
+1. How Loki was started (local Docker run):
 ---------------------------------------------
 docker run -d --name=loki -p 3100:3100 grafana/loki:2.9.0 -config.file=/etc/loki/local-config.yaml
 
