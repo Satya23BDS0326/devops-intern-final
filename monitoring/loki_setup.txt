@@ -3,7 +3,7 @@ def __init__(self) -> None:
         self.tracker = HandTracker()
         self.mirror = True
         self.gesture = "WAITING"
-        self.gesture_history: dequ
+        self.gesture_histor
      
 LOKI MONITORING SETUP NOTES
 ============================
