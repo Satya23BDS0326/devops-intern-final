@@ -6,7 +6,7 @@ LOKI MONITORING SETUP NOTES
 docker run -d --name=loki -p 3100:3100 grafana/loki:2.9.0 -config.file=/etc/loki/local-config.yaml
 
 (Optional) Start Grafana to visualize logs from Loki:
-docker run -d --name=grafana -p 3000:3000 grafana/grafana:lates
+docker run -d --name=grafana -p 3000:3000 grafana/grafana:latest
 
 Then open http://localhost:3000, add Loki as a data source using URL http://localhost:3100.
 
